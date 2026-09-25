@@ -1,0 +1,32 @@
+# Environment
+.env
+backend/.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node
+node_modules/
+dist/
+
+# Vector database
+vector_store/
+
+# User documents
+data/user_documents/
+
+# Generated files
+data/processed/documents.json
+data/processed/*.png
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
